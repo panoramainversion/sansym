@@ -1,7 +1,7 @@
 ---
 title: sansym
 draft: false
-tags: ["物理","数学","对称性","哲学"]
+tags:["物理","数学","哲学"]
 ---
 # 对称性的三原则
 sansym=trisymmetry  
