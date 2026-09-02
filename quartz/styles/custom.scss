@@ -1,8 +1,7 @@
 article table {
   border-collapse: collapse !important;
   margin: 1rem auto !important;
-  max-width: 100%;
-  width: auto !important;
+  width: fit-content !important; /* 宽度紧贴内容，不自动拉满 */
 }
 
 article th,
@@ -11,7 +10,8 @@ article td {
   padding: 0.2rem !important;
   text-align: center !important;
   font-size: 0.95rem;
-  line-height: 1.3;
+  line-height: 1.4; /* 轻微拉高单元格纵向高度，改善扁宽感 */
+  min-width: 3rem; /* 给每一列设置最小宽度，防止挤太窄 */
 }
 
 article th {
@@ -24,5 +24,6 @@ article th {
     border-width: 1px !important;
     padding: 0.2rem !important;
     font-size: 0.85rem;
+    min-width: 2.2rem;
   }
 }
