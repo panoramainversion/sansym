@@ -1,12 +1,12 @@
-// 全局表格边框样式，全站生效，不改动任何md文件
-div.article-container table {
+// 全局表格边框样式，全站生效
+article table {
   border-collapse: collapse !important;
-  margin: 1.5rem auto !important;
+  margin:1.5rem auto !important;
 }
 
-div.article-container table th,
-div.article-container table td {
-  border: 1px solid var(--color-border) !important;
-  padding: 0.7rem 1.2rem !important;
-  text-align: center !important;
+article th,
+article td {
+  border:1px solid var(--lightgray) !important;
+  padding:0.7rem 1.2rem !important;
+  text-align:center !important;
 }
