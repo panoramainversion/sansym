@@ -1,7 +1,9 @@
 ---
 title: sansym
+draft: false
+tags: ["物理","数学","对称性","哲学"]
 ---
-# 三重对称
+# 对称性的三原则
 sansym=trisymmetry  
 three‑fold symmetry
 
@@ -24,10 +26,10 @@ $C(a+bi)=a-bi$
 
 $R∘T=C$  
 
-$CPT$不变性是指物理定在  
+$CPT$不变性是指物理定律在  
 电荷共轭 $(C)$  
 宇称反转 $(P)$  
-时间反演 $(T)$的联合变换下  
+时间反演 $(T)$ 的联合变换下  
 保持不变的对称性  
 
 *三才者，天地人*是  
