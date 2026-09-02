@@ -3,12 +3,14 @@
 // put your custom CSS here!
 
 .markdown table {
-  border-collapse: collapse;
-  margin: 1rem auto;
+  border-collapse: collapse !important;
+  margin: 1.5rem auto;
+  width: auto;
 }
-.markdown th, .markdown td {
-  border: 1px solid;
-  padding: 0.6rem 1rem;
+.markdown th,
+.markdown td {
+  border: 1px solid var(--gray) !important;
+  padding: 0.7rem 1.2rem;
   text-align: center;
 }
 
