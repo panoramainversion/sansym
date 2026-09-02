@@ -7,8 +7,8 @@ article table {
 
 article th,
 article td {
-  border: 2px solid var(--dark) !important;   /* 加粗边框，用深色更明显 */
-  padding: 0.15rem 0.4rem !important;          /* 大幅压缩格子留白 */
+  border: 1px solid var(--dark) !important;   /* 加粗边框，用深色更明显 */
+  padding: 0.2rem 0.2rem !important;          /* 大幅压缩格子留白 */
   text-align: center !important;
   font-size: 0.95rem;
   line-height: 1.3;
