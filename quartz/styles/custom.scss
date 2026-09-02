@@ -1,17 +1,18 @@
 article table {
   border-collapse: collapse !important;
   margin: 1rem auto !important;
-  width: fit-content !important; /* 宽度紧贴内容，不自动拉满 */
+  width: fit-content !important;
 }
 
 article th,
 article td {
   border: 1px solid var(--dark) !important;
-  padding: 0.2rem !important;
+  padding: 0.2rem 0.05rem !important; /* 上/下 =0.2，左/右=0.05 */
   text-align: center !important;
   font-size: 0.95rem;
-  line-height: 1.4; /* 轻微拉高单元格纵向高度，改善扁宽感 */
-  min-width: 3rem; /* 给每一列设置最小宽度，防止挤太窄 */
+  line-height: 1.8 !important;
+  min-width: 2.5rem;
+  max-width: 4rem;
 }
 
 article th {
@@ -22,8 +23,10 @@ article th {
   article th,
   article td {
     border-width: 1px !important;
-    padding: 0.2rem !important;
+    padding: 0.2rem 0.05rem !important;
     font-size: 0.85rem;
-    min-width: 2.2rem;
+    min-width: 2rem;
+    max-width: 3.2rem;
+    line-height: 1.6 !important;
   }
 }
