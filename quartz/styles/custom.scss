@@ -7,12 +7,11 @@ article table {
 article th,
 article td {
   border: 1px solid var(--dark) !important;
-  padding: 0.2rem 0.2rem !important; /* 上/下 =0.2，左/右=0.2 */
+  padding: 0.2rem 0.22rem !important; /* 上/下 =0.2，左/右=0.22 */
   text-align: center !important;
   font-size: 0.95rem;
   line-height: 1.8 !important;
   min-width: 2.5rem;
-  max-width: 4rem;
 }
 
 article th {
@@ -23,10 +22,9 @@ article th {
   article th,
   article td {
     border-width: 1px !important;
-    padding: 0.2rem 0.2rem !important;
+    padding: 0.2rem 0.22rem !important;
     font-size: 0.85rem;
     min-width: 2rem;
-    max-width: 3.2rem;
     line-height: 1.6 !important;
   }
 }
