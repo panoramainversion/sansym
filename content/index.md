@@ -22,6 +22,6 @@ $C(a+bi)=a-bi$
 $R∘T=C$  
 ---
 📂目录
->[对称性的三大基本原理]([[trisymmetry]])  
->[股票交易的量子效应]([[quantumstock]])  
->[三重对称的粒子物理映射]([[Particlephysics]])  
+>[对称性的三大基本原理](trisymmetry.md)  
+>[股票交易的量子效应](quantumstock.md)  
+>[三重对称的粒子物理映射](Particlephysics.md)  
