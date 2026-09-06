@@ -1,6 +1,7 @@
 ---
-title: sansym
+title: 对称性的三大基本原理
 draft: false
+date: 2026-09-03
 tags: ["物理","数学","哲学"]
 ---
 # 对称性的三原则
