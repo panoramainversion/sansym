@@ -1,13 +1,6 @@
 ---
 title: 数学，物理，哲学现象的分析
 draft: false
-layout:
-sidebar: false
-pageType: bases
-excludeDrafts: true
-sortBy: date
-sortOrder: asc   # desc = 最新日期排在最上面；asc = 旧文章在前
-fields: ["title"]
 showTags: true
 ---
 
@@ -27,7 +20,4 @@ $T(x)=x^{-1}$
 $C(a+bi)=a-bi$  
 
 $R∘T=C$  
-
-## 📂 目录
-
 ---
