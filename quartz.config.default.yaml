@@ -212,17 +212,17 @@ plugins:
   - source: "@quartz-community/recent-notes"
     enabled: ture
     options:
-    title: 📂全部笔记
-    limit: 9999       # 设置超大数字 = 展示全部文章
-    sortBy: date
-    sortOrder: desc
-    showDate: false   # 列表隐藏日期（排序依然读取date）
-    showTags: true
-    excludeDrafts: true
-  layout:
-    position: afterBody
-    priority: 10
-    condition: index  # **只在首页渲染这个完整列表
+      title: 📂全部笔记
+      limit: 9999       # 设置超大数字 = 展示全部文章
+      sortBy: date
+      sortOrder: desc
+      showDate: false   # 列表隐藏日期（排序依然读取date）
+      showTags: true
+      excludeDrafts: true
+    layout:
+      position: afterBody
+      priority: 10
+      condition: index  # **只在首页渲染这个完整列表
   - source: "@quartz-community/spacer"
     enabled: true
     options: {}
