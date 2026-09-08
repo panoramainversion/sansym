@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: 原来如此
-  pageTitleSuffix: ""
+  pageTitle: idRTC
+  pageTitleSuffix: "tau"
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
-  baseUrl: freetw.cn
+  locale: zh-CN
+  baseUrl: tau.dpdns.org
   ignorePatterns:
     - private
     - templates
@@ -132,6 +132,8 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    option:
+      title:目录总览
     layout:
       position: left
       priority: 50
