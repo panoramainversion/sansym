@@ -132,8 +132,8 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
-    option:
-      title:目录总览
+    options:
+      title: 目录总览
     layout:
       position: left
       priority: 50
