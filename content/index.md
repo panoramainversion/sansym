@@ -11,6 +11,7 @@ showTags: true
 |   $i$    |   $-i$    |   $i^{-1}$   |
 | $e^{iπ}$ | $e^{-iπ}$ | $e^{i^{-1}π}$|  
 
+![[idrtc.png]]  
 
 反射对称 $R$ 取加法逆元  
 $R(x)=-x$  
@@ -26,3 +27,5 @@ $R∘T=C$
 >[股票交易的量子效应](quantumstock.md)  
 >[三重对称的粒子物理映射](Particlephysics.md)  
 >[从恒等元到三生万物](daosansym.md)  
+>[三重对称下的电磁波与光子](photons.md)  
+
