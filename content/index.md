@@ -21,6 +21,7 @@ $T(x)=x^{-1}$
 $C(a+bi)=a-bi$  
 
 $R∘T=C$  
+
 ---
 📂目录
 >[对称性的三大基本原理](trisymmetry.md)  
@@ -28,4 +29,6 @@ $R∘T=C$
 >[三重对称的粒子物理映射](Particlephysics.md)  
 >[从恒等元到三生万物](daosansym.md)  
 >[三重对称下的电磁波与光子](photons.md)  
+>[对黎曼ζ函数的分析](Riemannzeta.md)  
+
 
