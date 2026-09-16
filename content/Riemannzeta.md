@@ -51,9 +51,21 @@ $$
 |   $i$    |   $-i$    |   $i^{-1}$   |
 | $e^{iπ}$ | $e^{-iπ}$ | $e^{i^{-1}π}$|  
 
-### 对称性关系和三角函数的复数表示  
+### 平凡零点来源  
 
-| $\cos x$ | $i\sin x$ | $e^{ix}$ |
+| $π\cos x$ | $iπ\sin x$ | $πe^{ix}$ |
 | :--------: | :---------: | :--------: |
 | $\dfrac{π}{\cos x}$ | $\dfrac{πi}{\sin x}$ | $\dfrac{2πie^{-ix}}{\sin2x}$ |
-| $\dfrac{π}{\cos x}$ | $\dfrac{π}{i\sin x}$ | $\dfrac{-2πie^{ix}}{\sin2x}$ |
+| $\dfrac{π}{\cos x}$ | $\dfrac{π}{i\sin x}$ | $\dfrac{-2πie^{ix}}{\sin2x}$ |  
+
+### 非平凡零点来源  
+| $x$ | $y = x^{-1}$ | $1 = xy$ |
+|:---:|:---:|:---:|
+| $a$ | $bi$ | $s = a + bi$ |
+| $s$ | $\displaystyle\frac{1}{s}$ | $\displaystyle\frac{a-bi}{a^2+b^2}$ |  
+
+### 关键的等量关系  
+$a^2 + b^2 = x$  
+$cos\theta = \frac{a}{\sqrt{x}}$  
+$sin\theta = \frac{b}{\sqrt{x}}$   
+$\frac{a+bi}{a^2+b^2} = \frac{1}{\sqrt{x}}\big(\cos\theta + i\sin\theta\big) = \frac{1}{\sqrt{x}}e^{i\theta}$
