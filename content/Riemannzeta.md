@@ -42,10 +42,8 @@ $$
 
 ---
 >（注：以下内容为个人分析研究）  
->$x$行表示$Re(s)>1$区域，自然数是自共轭$C$  
->$i$行表示非平凡零点区域，自然数的对偶$T$区  
->$e^{iπ}$表示平凡零点区域，自然数的反射$R$区
 
+### 对称性的三区分化
 | **$x$**  |   $-x$    |   $x^{-1}$   |
 | :------: | :-------: | :-----------:|
 |   $i$    |   $-i$    |   $i^{-1}$   |
@@ -65,7 +63,21 @@ $$
 | $s$ | $\displaystyle\frac{1}{s}$ | $\displaystyle\frac{a-bi}{a^2+b^2}$ |  
 
 ### 关键的等量关系  
-$a^2 + b^2 = x$  
-$cos\theta = \frac{a}{\sqrt{x}}$  
-$sin\theta = \frac{b}{\sqrt{x}}$   
-$\frac{a+bi}{a^2+b^2} = \frac{1}{\sqrt{x}}\big(\cos\theta + i\sin\theta\big) = \frac{1}{\sqrt{x}}e^{i\theta}$
+| $a^2+b^2$ | $=x$ | $\dfrac{a+bi}{a^2+b^2}$ |
+|:---:|:---:|:---:|
+| $\cos\theta$ | $=\dfrac{a}{\sqrt{x}}$ | $\dfrac{1}{\sqrt{x}}(\cos\theta+i\sin\theta)$ |
+| $\sin\theta$ | $=\dfrac{b}{\sqrt{x}}$ | $\dfrac{1}{\sqrt{x}}e^{i\theta}$ |  
+
+
+### 对称操作$id,R,T$
+| $R(i)$ | $=-i$ | $R(i)=T(i)$ |
+|:---:|:---:|:---:|
+| $T(i)$ | $=i^{-1}$ | $C(i)=id(i)$ |
+| $id(i)$ | $=i$ | $R\circ T=C$ |  
+
+### 共轭中反射对称的选择性$R(bi)$
+| $R$ | $T$ | $C$ |
+|:---:|:---:|:---:|
+| $a$ | $bi$ | $s$ |
+| $id(a)$ | $R(bi)$ | $s^*$ |
+
