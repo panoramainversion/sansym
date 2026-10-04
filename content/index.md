@@ -31,6 +31,6 @@ $R(i)∘T(i)=C(i)=-i^{-1}$
 >[三重对称下的电磁波与光子](photons.md)  
 >[对黎曼ζ函数的分析](Riemannzeta.md)  
 >[复数对称性和时钟转动](clock.md)  
-
+>[几何级数和它的对称分支](xie.html)  
 
 
