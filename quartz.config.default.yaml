@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: idRTC
-  pageTitleSuffix: "tau"
+  pageTitle: 三重对称
+  pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
@@ -68,7 +68,7 @@ plugins:
     enabled: true
     order: 40
   - source: "@quartz-community/table-of-contents"
-    enabled: true
+    enabled: false
     order: 50
     layout:
       position: right
