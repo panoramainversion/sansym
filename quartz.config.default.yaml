@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: 三重对称
+  pageTitle: 反复无常
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true

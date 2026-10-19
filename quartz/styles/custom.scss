@@ -28,3 +28,17 @@ article th {
     line-height: 1.6 !important;
   }
 }
+
+// 专门针对深色模式下的关系图谱文字
+:root[saved-theme="dark"] {
+  .graph-view {
+    // 尝试覆盖图谱内的文字颜色，具体类名可能需要检查页面元素
+    text {
+      fill: var(--darkgray) !important; // 强制使用深灰色（在深色模式下应为浅色）
+    }
+    // 如果有其他特定的类，如 .node-label
+    .node-label {
+      fill: var(--darkgray) !important;
+    }
+  }
+}
